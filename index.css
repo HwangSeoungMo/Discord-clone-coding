@@ -80,6 +80,9 @@ img {
   height: 100%;
 }
 /* 디코 좌측 첫번째 */
+
+/* 디코 좌측 두번째 */
+
 .sidebar {
   background-color: #2F3136;
   width: 240px;
@@ -91,19 +94,45 @@ img {
   color: white;
   
 }
+
 .header:hover {
   background-color: #3b3f44;
   cursor: pointer;
 }
-/* 디코 좌측 두번째 */
 
+.head {
+  color: #96989E;
+}
 
+.head:hover {
+  color: #FFFFF3;
+  cursor: pointer;
+}
 
+.nav_item {
+  color: #96989E;
+  padding: 1px 0px;
+  margin-left: 15px;
+}
 
+.nav_item .nav_icon {
+  height: 2rem;
+}
 
+.nav_item .nav_icon .pound,
+.nav_item .nav_icon .sound {
+  ;
+}
 
+.nav_item:hover {
+  color: #FFFFF3;
+  background-color: #42464E;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-
+.foot {
+}
 
 
 /* 디코 좌측 두번째 */
