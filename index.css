@@ -92,7 +92,8 @@ img {
 .header {
   padding: 12PX 16px;
   color: white;
-  
+  display: flex;
+  justify-content: space-between;
 }
 
 .header:hover {
@@ -100,8 +101,23 @@ img {
   cursor: pointer;
 }
 
+.sidebar .header .grand {
+  background-image: ;
+}
+
 .head {
   color: #96989E;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head .top {
+  margin-right: 65%;
+}
+
+.head .nav_plus {
+  margin-right: 11px;
 }
 
 .head:hover {
@@ -113,15 +129,18 @@ img {
   color: #96989E;
   padding: 1px 0px;
   margin-left: 15px;
+  display: flex
 }
 
 .nav_item .nav_icon {
   height: 2rem;
+  margin-left: 6px;
+  align-content: center
 }
 
 .nav_item .nav_icon .pound,
 .nav_item .nav_icon .sound {
-  ;
+  
 }
 
 .nav_item:hover {
