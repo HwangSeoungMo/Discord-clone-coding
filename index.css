@@ -181,3 +181,23 @@ img {
 }
 
 /* 디코 좌측 두번째 */
+
+/* 디코 메인 */
+
+.main_header {
+  background-color: #35393F;
+  position: relative;
+  z-index: 100;
+  padding: 0px 8px;
+  height: 48px;
+}
+
+.content {
+    background-color: #35393F;
+    height: 100vh;
+    width: 169vh
+  }
+
+
+
+/* 디코 메인 */
