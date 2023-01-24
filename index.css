@@ -89,50 +89,46 @@ img {
   height: 100vh;
 }
 
-.header {
+.sidebar .header {
   padding: 12PX 16px;
   color: white;
   display: flex;
   justify-content: space-between;
 }
 
-.header:hover {
+.sidebar .header:hover {
   background-color: #3b3f44;
   cursor: pointer;
 }
 
-.sidebar .header .grand {
-  background-image: ;
-}
-
-.head {
+.sidebar .head {
   color: #96989E;
   padding: 5px;
   display: flex;
   justify-content: space-between;
 }
 
-.head .top {
+.sidebar .head .top {
   margin-right: 65%;
 }
 
-.head .nav_plus {
+.sidebar .head .nav_plus {
   margin-right: 11px;
 }
 
-.head:hover {
+.sidebar .head:hover {
   color: #FFFFF3;
   cursor: pointer;
 }
 
-.nav_item {
+.sidebar .nav_item {
   color: #96989E;
   padding: 1px 0px;
   margin-left: 15px;
   display: flex
 }
 
-.nav_item .nav_icon {
+.sidebar .nav_item .nav_icon {
   height: 2rem;
   margin-left: 6px;
   align-content: center
@@ -143,15 +139,45 @@ img {
   
 }
 
-.nav_item:hover {
+.sidebar .nav_item:hover {
   color: #FFFFF3;
   background-color: #42464E;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.foot {
+.nav_foot {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  padding: 0px 8px;
+  height: 52px;
+  width: 240px;
+  align-items: center;
+  background-color: #292B2F;
 }
 
+.nav_foot .nav_hide {
+  display: inline-flex;
+  font-size: 14px;
+  color: #D4FFFF;
+}
+
+.nav_foot .nav_hide:hover {
+  background-color: #3b3f44;
+  border-radius: 5px;
+}
+
+.nav_foot .nav_font {
+  display: inline-flex;
+  margin-left: 42px;
+}
+
+.nav_foot .nav_font .nav_mic:hover ,
+.nav_foot .nav_font .nav_hdset:hover ,
+.nav_foot .nav_font .nav_topic:hover {
+  background-color: #3b3f44;
+  border-radius: 5px;
+}
 
 /* 디코 좌측 두번째 */
