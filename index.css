@@ -90,10 +90,13 @@ img {
 }
 
 .sidebar .header {
+  height: 130px;
   padding: 12PX 16px;
   color: white;
   display: flex;
   justify-content: space-between;
+  background-image: url("https://cdn.discordapp.com/banners/738374694385745931/3b70a5e3c9c1fa85d5e67b63ff3ab6fb.webp?size=240");
+  background-size: cover;
 }
 
 .sidebar .header:hover {
@@ -198,6 +201,7 @@ img {
   display: inline-flex;
   padding: 4px 8px;
   align-items: center;
+  border-bottom: #2A2D32;
   color: #EFFFFF;
 }
 
@@ -244,6 +248,8 @@ img {
   color: #72767D;
 }
 
-
+.footer_img {
+  margin-left: 118rem;
+}
 
 /* 디코 메인 */
